@@ -1,0 +1,31 @@
+Project Overview
+Introduction:
+This project is focused on predicting bullying victims using data from the National Crime Victimization Survey (NCVS). The project applies various data mining techniques to preprocess the dataset and build classification models to accurately predict instances of bullying.
+Key Features:
+Data Preprocessing: Extensive preprocessing methods were applied, including handling missing data, dealing with outliers, removing unimportant attributes, and addressing multicollinearity.
+Classification Models: Multiple classification models such as Naive Bayes, XGBoost, Random Forest, Logistic Regression, KNN, SVM, and Neural Networks were implemented and evaluated.
+Model Tuning: Fine-tuning of models was conducted using hyperparameter optimization and techniques such as oversampling and undersampling to handle class imbalances.
+Performance Evaluation: Models were evaluated based on metrics like True Positive Rate (TPR), False Positive Rate (FPR), Precision, Recall, and ROC-AUC scores.
+
+Project Structure
+Preprocessing Techniques:
+Missing Data Handling: Checked for missing values and addressed them to ensure data completeness.
+Outlier Detection: Applied IQR methodology to identify and manage outliers in the dataset.
+Attribute Selection: Utilized methods such as VIF and Information Gain to filter out irrelevant attributes, reducing the dataset to 39 key variables.
+Class Balancing: Used the ROSE package for oversampling and undersampling to balance the class distribution in the training dataset.
+Classification Methods:
+Naive Bayes: Probabilistic model based on Bayes' Theorem.
+XGBoost: Gradient boosting method with L1 and L2 regularization to prevent overfitting.
+Random Forest: Ensemble method using multiple decision trees for robust predictions.
+Logistic Regression: Simple yet effective for binary classification.
+K-Nearest Neighbors (KNN): Instance-based learning algorithm using distance metrics.
+Support Vector Machines (SVM): Effective for high-dimensional space classification.
+Neural Networks: Implemented for complex pattern recognition in the data.
+
+Use Cases
+Bullying Victim Prediction:
+The primary goal is to predict whether an individual in the dataset is a victim of bullying using the best-performing classification model.
+Model Comparison:
+The project includes a detailed comparison of different models to determine the most effective one for the given dataset.
+Data-Driven Decision Making:
+Provides insights for educational institutions and policymakers to understand the factors contributing to bullying and to take proactive measures.
